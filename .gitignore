@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local secrets and runtime caches
+.streamlit/secrets.toml
+
+# Empty local scratch files
+dataset

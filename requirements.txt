@@ -1,0 +1,19 @@
+# ==============================================================================
+# AI Coding Assistant - Project Dependencies
+# ==============================================================================
+# Core Application and Web UI
+streamlit>=1.40.0
+
+# Official Google Gen AI SDK (Synchronous Client)
+google-genai>=2.0.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Automated Testing Framework
+pytest>=8.0.0
+
+# Optional Multi-Provider SDKs (Phase 6)
+# Uncomment or install when enabling OpenAI or Anthropic adapters:
+# openai>=1.50.0
+# anthropic>=0.40.0
